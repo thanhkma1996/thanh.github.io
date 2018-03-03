@@ -1,0 +1,109 @@
+body { padding: 0; margin: 0; font-family: 'PT Sans',sans-serif; font-size: 14px;}
+a { text-decoration: none;}
+.box2 { margin-top: 20px;}
+/* header */
+
+#logo a {  color: white;  padding-left: 110px; background: #1a54e7;}
+#menu1 li a{ color:#b1b1b1; font-size: 17px; font-family:'PT Sans',sans-serif;}
+
+#menu2 { padding-left: 120px;}
+#menu2 li a { font-size: 17px; color:#849aef; font-family:'PT Sans',sans-serif;;}
+/* product */
+#product { padding-top: 20px; padding-bottom: 80px; background: #f6f6f6;}
+#box3 { padding-bottom: 20px; padding-top: 30px;}
+#box4 { padding-bottom: 50px; padding-top: 20px;}
+#box5 { padding-top: 20px; padding-bottom: 50px;}
+#box6 { padding-top: 30px; padding-bottom: 100px; background: #f6f6f6; width: 100%;}
+
+/* desc_category_product */
+
+/* foooter */
+.signup { width: 120px; border-radius: 20px 20px 20px 20px; background: white; height: 35px;
+        position: relative; left: -50px; border-style: none; font-weight: bold; font-size: 18px;
+}
+#footer_content{
+	background-image: url('../images/sms.jpg');
+	color:white;
+	text-align: center;
+	margin-top:0px;
+}
+#footer_content p{
+      margin-top:45px;
+      margin-bottom: 150px;
+      font-size: 25px;
+}
+/* content product */
+
+/* footer_information */
+
+#footer_information p{ text-align: center; color: #d6d8df; font-size: 14px; padding-top: 50px; padding-bottom: 100px;}
+
+/* position */
+.images {  width: 100%; display: block; }
+.images span {     position: relative;
+    background: #d90445;
+    padding: 9px 15px;
+    color: white;
+    /* top: 10px; */
+    bottom: 45px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+/* control slide */
+#left_control {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 2%;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 1px 2px rgba(0,0,0,.6);
+      filter: alpha(opacity=50);
+      opacity: 1;
+
+}
+#icon_left { background: white;}
+#icon_right { background-color: white;}
+#right_control {
+
+  position: absolute;
+      top: 0;
+      bottom: 0;
+      /* left: 0; */
+      width: 2%;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 1px 2px rgba(0,0,0,.6);
+      filter: alpha(opacity=50);
+      opacity: 1
+}
+
+/* poup quảng cáo */
+  #floating
+    {
+        z-index: 9999999;
+        position: absolute;
+        width: 600px;
+        height: 420px;
+        border: 0px !important;
+    }
+    #overPage
+    {
+        background: black;
+        z-index: 9999999;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    #popup-giua-man-hinh .headerContainer,#popup-giua-man-hinh .bodyContainer,#popup-giua-man-hinh .footerContainer{max-width:960px;margin:0 auto;background:#FFF}
+    #popup-giua-man-hinh .padding{padding:20px}
+    #popup-giua-man-hinh .bodyContainer{min-height:550px}
+    #popup-giua-man-hinh .popUpBannerBox{position:fixed;background:rgba(0,0,0,0.9);width:100%;height:100%;top:0;left:0;color:#FFF;z-index:999999;display:none}
+    #popup-giua-man-hinh .popUpBannerInner{max-width:560px;margin:0 auto}
+    #popup-giua-man-hinh .popUpBannerContent{position:fixed;top:150px}
+    #popup-giua-man-hinh .closeButton{color:white;text-decoration:none;font-size:18px}
+    #popup-giua-man-hinh a.closeButton{float:right}
